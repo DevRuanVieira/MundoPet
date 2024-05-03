@@ -141,3 +141,137 @@ body{
     width: 100%;
     height: auto;
 }
+
+.nav-categoria{
+    background-color: #DEDEDE33;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+    top: 680px;
+    gap: 0px;
+    opacity: 0px;
+    align-items: center;
+    
+}
+
+.nav-categoria h1{
+    font-family: var(--fonte-principal);
+    font-weight: 50;
+    font-size: 2rem;
+
+}
+#categorias{
+    display: flex;
+    margin-top: 3.5rem;
+    margin-left: 12%;
+  margin-left: 27%;
+  position: relative;
+
+}
+
+#cachorros h4{
+    font-family: var(--fonte-secundaria);
+    font-weight: 50;
+    font-size: 1rem;
+}
+
+#gatos h4{
+    font-family: var(--fonte-secundaria);
+    font-weight: 50;
+    font-size: 1rem;
+}
+
+#peixes h4{
+    font-family: var(--fonte-secundaria);
+    font-weight: 50;
+    font-size: 1rem;
+}
+
+#acessorios h4{
+    font-family: var(--fonte-secundaria);
+    font-weight: 50;
+    font-size: 1rem;
+}
+
+#cachorros img{
+    width: 60%;
+    background-color: #77C7F91F;
+    border-radius: 100%;
+}
+#gatos img{
+    width: 60%;
+    background-color: #98FF9C33;
+    border-radius: 100%;
+}
+#peixes img{
+    width: 60%;
+    background-color:#FDFF8D30;
+    border-radius: 100%;
+}
+#acessorios img{
+    width: 60%;
+    background-color:#FF98D030;
+    border-radius:100%;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo {
+    width: 20%;
+    margin: 2em;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #DEDEDE33;
+    padding: 5%;
+}
+.card p{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   font-size: 1.2em;
+}
+.card img{
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.card h4{
+    margin-top: 20%;
+    color: red;
+    font-size: 1.5em;
+    position: relative;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover{
+    transition: 0.3s;
+    color: #000000;
+    box-shadow: 0 6px 8px 0 #423b3b, 0 8px 12px 0 #000000;
+}
+
+.fonte_ofertas{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: var(--fonte-secundaria);
+    font-size: 17px;
+    font-weight: 700;
+    position: relative;
+    margin-left: 5%;
+    margin-top:
+}
