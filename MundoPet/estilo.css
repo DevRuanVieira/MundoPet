@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --cor-principal: rgba(139, 17, 197, 0.78);
+    --cor-secundaria: rgba(53, 28, 92, 1);
+    --cor-terciaria: rgba(18, 134, 206, 1);
+    
+    --cor-hover: #303030;
+
+    --fonte-principal:  "Krona One" , sans-serif;
+    --fonte-secundaria: "M PLUS 1p", sans-serif;
+}
+body{
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    height: 88px;
+    background-color: var(--cor-principal);
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 1%;
+
+    
+}
+
+.cabecalho-menu-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 850px;
+
+   
+}
+
+.cabecalho-menu-cadastro{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.cabecalho-menu-buscar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ 
+}
+
+#cabecalho-menu-input{
+    border-radius: 5px;
+    width: 454.98px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    
+}
+
+
+#cabecalho-botao{
+    height: 40px;
+    width: 67.55px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--cor-terciaria);
+}
+
+
+.cabecalho-menu-cadastro-cadastrar{
+    width: 145px;
+    height: 44px;
+    border:  3px solid rgba(246, 241, 241, 1);
+    border-radius: 5px;
+    background-color: rgba(139, 17, 197, 0.78);
+    color: rgba(246, 241, 241, 1);
+  
+  
+
+}
+
+.cabecalho-menu-cadastro-entrar{
+    width: 107.29px;
+    height: 44px;
+    border-radius: 5px;
+    border: 0;
+    
+}
+
+.cadastrar-letra{
+    text-decoration: none;
+    color: rgba(246, 241, 241, 1);
+    font-family: var(--fonte-secundaria);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.entrar-letra{
+    text-decoration: none;
+    color:rgba(55, 55, 55, 1);
+    font-family: var(--fonte-secundaria);
+    font-size: 15px;
+    font-family: 500;
+    
+}
+
+
+
+.cabecalho-homepag{
+    background-color: var(--cor-secundaria);
+    display: flex;
+    align-items: center;
+    padding: 1%
+   
+   
+    
+    
+}
+
+.cabecalho-homepag-tags-abas{   
+    padding: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(246, 241, 241, 1);
+    font-family: var(--fonte-secundaria);
+    font-weight: 700;
+ 
+}
+
+#cabecalho-img-dog{
+    width: 100%;
+    height: auto;
+}
