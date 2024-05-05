@@ -1,0 +1,307 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --cor-principal: rgba(139, 17, 197, 0.78);
+    --cor-secundaria: rgba(53, 28, 92, 1);
+    --cor-terciaria: rgba(18, 134, 206, 1);
+    
+    --cor-hover: #303030;
+
+    --fonte-principal:  "Krona One" , sans-serif;
+    --fonte-secundaria: "M PLUS 1p", sans-serif;
+}
+body{
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    height: 88px;
+    background-color: var(--cor-principal);
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 1%;
+
+    
+}
+
+.cabecalho-menu-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 850px;
+}
+
+.cabecalho-menu-cadastro{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.cabecalho-menu-buscar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#cabecalho-menu-input{
+    border-radius: 5px;
+    width: 454.98px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    
+}
+
+
+#cabecalho-botao{
+    height: 40px;
+    width: 67.55px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--cor-terciaria);
+}
+
+
+.cabecalho-menu-cadastro-cadastrar{
+    width: 145px;
+    height: 44px;
+    border:  3px solid rgba(246, 241, 241, 1);
+    border-radius: 5px;
+    background-color: rgba(139, 17, 197, 0.78);
+    color: rgba(246, 241, 241, 1);
+}
+
+.cabecalho-menu-cadastro-entrar{
+    width: 107.29px;
+    height: 44px;
+    border-radius: 5px;
+    border: 0;
+    
+}
+
+.cadastrar-letra{
+    text-decoration: none;
+    color: rgba(246, 241, 241, 1);
+    font-family: var(--fonte-secundaria);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.entrar-letra{
+    text-decoration: none;
+    color:rgba(55, 55, 55, 1);
+    font-family: var(--fonte-secundaria);
+    font-size: 15px;
+    font-family: 500;
+    
+}
+
+
+
+.cabecalho-homepag{
+    background-color: var(--cor-secundaria);
+    display: flex;
+    align-items: center;
+    padding: 1%
+}
+
+.cabecalho-homepag-tags-abas{   
+    padding: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(246, 241, 241, 1);
+    font-family: var(--fonte-secundaria);
+    font-weight: 700;
+}
+
+#cabecalho-img-dog1{
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 463px; 
+    height: 272px; 
+    border-radius: 10px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.overlay h1{
+    padding-bottom: 5%;
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+}
+
+.overlay p{
+    text-align: center;
+    font-size: 120%;
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+}
+
+.overlay button{
+    width: 134px;
+    height: 46px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    cursor: pointer;
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+}
+
+.nav-categoria{
+    background-color: #DEDEDE33;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+    top: 680px;
+    gap: 0px;
+    opacity: 0px;
+    align-items: center;
+    
+}
+
+.nav-categoria h1{
+    font-family: var(--fonte-principal);
+    font-weight: 50;
+    font-size: 2rem;
+
+}
+#categorias{
+    display: flex;
+    margin-top: 3.5rem;
+    margin-left: 12%;
+    margin-left: 27%;
+    position: relative;
+}
+
+#cachorros h4{
+    font-family: var(--fonte-secundaria);
+    font-weight: 50;
+    font-size: 1rem;
+}
+
+#gatos h4{
+    font-family: var(--fonte-secundaria);
+    font-weight: 50;
+    font-size: 1rem;
+}
+
+#peixes h4{
+    font-family: var(--fonte-secundaria);
+    font-weight: 50;
+    font-size: 1rem;
+}
+
+#acessorios h4{
+    font-family: var(--fonte-secundaria);
+    font-weight: 50;
+    font-size: 1rem;
+}
+
+#cachorros img{
+    width: 60%;
+    background-color: #77C7F91F;
+    border-radius: 100%;
+}
+#gatos img{
+    width: 60%;
+    background-color: #98FF9C33;
+    border-radius: 100%;
+}
+#peixes img{
+    width: 60%;
+    background-color:#FDFF8D30;
+    border-radius: 100%;
+}
+#acessorios img{
+    width: 60%;
+    background-color:#FF98D030;
+    border-radius:100%;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo {
+    width: 20%;
+    margin: 2em;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #DEDEDE33;
+    padding: 5%;
+}
+.card p{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 1.2em;
+}
+.card img{
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.card h4{
+    margin-top: 20%;
+    color: red;
+    font-size: 1.5em;
+    position: relative;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover{
+    transition: 0.3s;
+    color: #000000;
+    box-shadow: 0 6px 8px 0 #423b3b, 0 8px 12px 0 #000000;
+}
+
+.fonte_ofertas{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: var(--fonte-secundaria);
+    font-size: 17px;
+    font-weight: 700;
+    position: relative;
+    margin-left: 5%;
+}
+
+
