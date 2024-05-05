@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="./css/estilo.css">
     <link rel="shortcut icon" href="./img/icon.png">
+
     <title>Mundo Pet</title>
 </head>
 
@@ -13,15 +14,20 @@
     <div class="cabecalho">
         <img id="cabecalho-menu-principal-imagem" src="./img/pata.png" alt="" width="61.59" height="59">
         <div class="cabecalho-menu-principal">
-          
+
             <nav class="cabecalho-menu-buscar">
                 <input type="text" name="" id="cabecalho-menu-input" placeholder="   Buscar">
-               <button id="cabecalho-botao"> <a href=""><img id="cabecalho-menu-input-pesquisa" src="./img/pesquisar.png" alt="" width="45px" ></a></button>
+                <button id="cabecalho-botao"> <a href=""><img id="cabecalho-menu-input-pesquisa"
+                            src="./img/pesquisar.png" alt="" width="45px"></a></button>
             </nav>
 
             <nav class="cabecalho-menu-cadastro">
-                <button class="cabecalho-menu-cadastro-cadastrar"><a href="" class="cadastrar-letra">Cadastrar-se</a></button>
-                <button class="cabecalho-menu-cadastro-entrar"><a class="entrar-letra" href="">Entrar</a></button>
+                <button class="cabecalho-menu-cadastro-cadastrar">
+                    <a href=""class="cadastrar-letra">Cadastrar-se</a>
+                </button>
+                <button class="cabecalho-menu-cadastro-entrar">
+                    <a class="entrar-letra" href="">Entrar</a>
+                </button>
             </nav>
         </div>
     </div>
@@ -37,29 +43,36 @@
 
     </div>
 
-    <div class="cabecalho-img">
-    <img id="cabecalho-img-dog" src="./img/dog1.jpeg" alt="" >
+    <section id="banner">
+        <img id="cabecalho-img-dog1" src="./img/dog1.jpeg" alt="dog1">
+    </section>
+    <div class="overlay">
+        <h1>Bem vindo à mundo pet</h1>
+        <p>Aqui você encontra de tudo para seu pet<br>comida, acessórios, produtos de saúde<br>e muito mais!</p>
+        <button>Conferir</button>
+    </div>
     </div>
 
     <section class="nav-categoria">
         <h1>Navegue por categorias</h1>
         <div id="categorias">
             <div id="cachorros">
-                <img src="./img/cachorros.png">
+                <a href=""><img src="./img/cachorros.png" ></a>
                 <h4>Cachorros</h4>
             </div>
             <div id="gatos">
-                <img src="./img/gatos.png">
+                <a href=""><img src="./img/gatos.png" ></a>
                 <h4>Gatos</h4>
             </div>
             <div id="peixes">
-                <img src="./img/peixes.png">
+                <a href=""><img src="./img/peixes.png" ></a>
                 <h4>Peixes</h4>
             </div>
             <div id="acessorios">
-                <img src="./img/acessorios.png">
+                <a href=""><img src="./img/acessorios.png" ></a>
                 <h4>Acessórios</h4>
             </div>
+
         </div>
     </section>
 
@@ -70,89 +83,172 @@
         <div class="container">
             <main class="conteudo">
                 <div class="card">
-                    <img src="/MundoPet/img/coleria.png" alt="Coleira">
+                    <img src="./img/coleria.png" alt="Coleira">
                     <p>Coleira<br></p>
-                        <h4>
-                            R$15,50
-                        </h4>
+                    <button><a href="">R$15,49</a></button>
                 </div>
             </main>
             <main class="conteudo">
                 <div class="card">
-                    <img src="/MundoPet/img/potinho de agua.png" alt="Coleira">
+                    <img src="./img/potinho de agua.png" alt="Coleira">
                     <p>Potinho de água<br></p>
-                    <h4>
-                        R$29,00
-                    </h4>
+                    <button><a href="">R$29,90</a></button>
+
+                </div>
+            </main>
+            <main class="conteudo">
+                <div class="card">
+                    <img src="./img/sabonete para pet.png" alt="Coleira">
+                    <p>Sabonete para cachorro<br></p>
+                    <button><a href="">R$5,49</a></button>
                     
                 </div>
             </main>
             <main class="conteudo">
                 <div class="card">
-                    <img src="/MundoPet/img/sabonete para pet.png" alt="Coleira">
-                    <p>Sabonete para cachorro<br></p>
-                    <h4> R$5,50
-                    </h4>
-                </div>
-            </main>
-            <main class="conteudo">
-                <div class="card">
-                    <img  src="/MundoPet/img/saco de racao.png" alt="Coleira">
+                    <img src="./img/saco de racao.png" alt="Coleira">
                     <p>Ração para cachorro<br></p>
-                    <h4>
-                        R$65,50
-                    </h4>    
+                    <button><a href="">R$65,50</a></button>
                 </div>
             </main>
         </div>
     </div>
-    
+
     <div class="fonte_ofertas">
         <h2>Ofertas para Gatos </h2>
         <div class="container">
             <main class="conteudo">
                 <div class="card">
-                    <img src="/MundoPet/img/racao_gato.png" alt="Ração para gatos">
+                    <img src="./img/racao_gato.png" alt="Ração para gatos">
                     <p>Ração para gatos<br></p>
-                    <h4>
-                        R$55,20
-                    </h4>
+                    <button><a class="" href="">R$55,49</a></button>
                 </div>
             </main>
 
             <main class="conteudo">
                 <div class="card">
-                    <img src="/MundoPet/img/sache_de-atum.png" alt="Ração para gatos">
+                    <img src="./img/sache_de-atum.png" alt="Ração para gatos">
                     <p>Sachê de atum<br></p>
-                        <h4>
-                            R$14,20
-                        </h4>
+                    <button><a class="" href="">R$14,49</a></button>
                 </div>
             </main>
-          
+
             <main class="conteudo">
                 <div class="card">
-                    <img src="/MundoPet/img/racao_para_gatos_outra_marca.png" alt="Ração para gatos">
+                    <img src="./img/racao_para_gatos_outra_marca.png" alt="Ração para gatos">
                     <p>Ração para gatos<br></p>
-                    <h4>
-                        R$48,20
-                    </h4>
+                    <button><a class="" href="">R$48,99</a></button>
                 </div>
             </main>
             <main class="conteudo">
                 <div class="card">
-                    <img src="/MundoPet/img/shampoo_para_gatos.png" alt="Ração para gatos">
+                    <img src="./img/shampoo_para_gatos.png" alt="Ração para gatos">
                     <p>Sabonete para gatos<br></p>
-                    <h4>
-                        R$10,20
-                    </h4>
+                    <button><a class="" href="">R$9,90</a></button>
                 </div>
             </main>
         </div>
     </div>
-    
 
-    
-    </body>
-    
-    </html>
+    <div class="adote_agora">
+        <h1>Adote um amigo</h1>
+        <img id="imagem_adote_agora" src="./img/adote_agora.jpg">
+        <p>O seu amor faz toda a diferença! Você pode<br> se apaixonar pelo seu próximo melhor<br> amigo hoje. Adote, cuide e receba muito<br> carinho em troca.</p>
+        <p id="numero_telefone">Ligue +00 098 098</p>
+        <button>Saber mais</button>
+    </div>
+
+
+    <div class="pets-disponiveis">
+        <h1>PETS DISPONÍVEIS</h1>
+
+        <div class="pets-disponiveis-cards">
+           
+
+            <div class="pets-disponiveis-cards-card">
+                <div class="card-img-cinza">
+                <img class="card-img" src="./img/dogAdote1.png" alt="">
+                </div>
+                <h1>Amora</h1>
+                <p>São Paulo - SP</p>
+                <button class="card-button"><a class="card-button-a" href="">Quero Adotar</a></button>
+            </div>
+            
+            <div class="pets-disponiveis-cards-card">
+                <div class="card-img-cinza">
+                <img class="card-img2" src="./img/dogAdote2.png" alt="">
+                </div>
+                
+                <h1>Théo</h1>
+                <p>São Paulo - SP</p>
+                <button class="card-button"><a class="card-button-a" href="">Quero Adotar</a></button>
+            </div>
+           
+
+            <div class="pets-disponiveis-cards-card">
+                <div class="card-img-cinza">
+                <img class="card-img" src="./img/dogAdote3.png" alt="">
+                </div>
+                <h1>Joaquim</h1>
+                <p>São Paulo - SP</p>
+                <button class="card-button"><a class="card-button-a" href="">Quero Adotar</a></button>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="principais_marcas">
+        <h1>PRINCIPAIS MARCAS</h1>
+        <img src="./img/marcas1.jpg">
+        <img src="./img/marcas2.jpg">
+        <img src="./img/marcas3.jpg">
+        <img src="./img/marcas4.jpg">
+        <img src="./img/marcas5.jpg">
+        <img src="./img/marcas6.jpg">
+        <img src="./img/marcas7.jpg">
+    </div>
+
+    <footer class="rodape">
+        <div class="rodape-textos">
+            <div class="rodape-textos-divisao">
+                <div class="rodape-textos-loja">
+                    <h3>Mundo Pet</h3>
+                    <p>A melhor escolha <br> para o seu pet.</p>
+                </div> 
+                <div class="rodape-textos-loja-img">
+                    <a href=""><img class="rodape-img" src="./img/facebook.png" alt="" ></a>
+                    <a href=""><img  class="rodape-img" src="./img/instagram.png" alt="" ></a>
+                    <a href=""><img  class="rodape-img" src="./img/twitter.png" alt="" ></a>
+                </div>
+            </div>
+            <div class="rodape-textos-divisao2">
+                <div class="rodape-textos-fileiras">
+                    <h3>informações <br></h3>
+                    <p>Sobre <br></p>
+                    <p>Produtos <br></p>
+                    <p>Blog <br></p>
+                </div>
+                <div class="rodape-textos-fileiras">
+                    <h3>Empresa</h3>
+                    <p>Comunidade</p>
+                    <p>Valores</p>
+                    <p>História</p>
+                </div>
+                <div class="rodape-textos-fileiras">
+                    <h3>Contato</h3>
+                    <p>E-Mail: mundopet@gmail.com</p>
+                    <p>Fale Conosco</p>
+                    <p>(11)9222-3344</p>
+                </div>
+
+            </div>
+
+        </div>
+        <p id="rodape-texto-direitos">@2024 - Todos os direitos reservados</p>
+    </footer>
+
+
+    <script src="./code/carrossel.js"></script>
+</body>
+
+</html>
